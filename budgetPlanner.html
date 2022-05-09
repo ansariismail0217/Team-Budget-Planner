@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initialscale=
+1.0">
+<title>Budget Planner</title>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+</head>
+<body>
+<div class="jumbotron">
+    <p>
+        <h1> Budget Planner</h1>
+    </p><br>
+    <div>
+        <b>Enter Professional Budget Expense: </b>
+        <input type="number" id="expense">
+        <b id="firstValue" style="padding: 5px;">000.00</b> &nbsp;&nbsp;
+        <button type="button" onclick="addTheValue()">Add Expense </button>
+    </div><br><br>
+    <div>
+        <b>
+            Budget of the Deal: 
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        </b>
+        <input type="number" id="budget" placeholder="Enter the budget">
+        <b id="finalBudget"></b> &nbsp;&nbsp;
+        <button type="button" onclick="showBudget()">Submit</button>
+    </div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
